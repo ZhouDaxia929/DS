@@ -88,6 +88,27 @@
 		<Unit filename="F:/ForCoding/DS/Array.h">
 			<Option target="DS"/>
 		</Unit>
+		<Unit filename="F:/ForCoding/DS/Array2D.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/Array2D.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/LinkedList.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/LinkedList.h">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/ListElement.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/Matrix.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="F:/ForCoding/DS/Matrix.h">
+			<Option target="DS"/>
+		</Unit>
 		<Unit filename="F:/ForCoding/DS/main.cpp">
 			<Option target="DS"/>
 		</Unit>

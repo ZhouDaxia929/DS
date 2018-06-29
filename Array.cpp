@@ -58,6 +58,20 @@ T& Array<T>::operator[](unsigned int position) {
 
 template <class T>
 void Array<T>::SetBase(unsigned int newBase) {
+    //base = newBase;
+    T* const newData = new T[length];
+    if(newBase < base){
+        unsigned int shift = base - newBase;
+        for(int i = length; i >= shift; --i)
+            newData[i] = data[i - shift];
+    }
+    else{
+        unsigned int shift = newBase - base;
+        for(int i = shift; i < length; ++i)
+            newData[i] = data[i + shift];
+    }
+    delete [] data;
+    data = newData;
     base = newBase;
 }
 
@@ -72,3 +86,15 @@ void Array<T>::SetLength(unsigned int newLength) {
     length = newLength;
 }
 
+template <class T>
+Array<T>& Array<T>::operator = (Array const & array) {
+    if(this != &array){
+        delete [] data;
+        base = array.base;
+        length = array.length;
+        data = new T[length];
+        for(unsigned int i = 0; i < length; ++i)
+            data[i] = array.data[i];
+    }
+    return *this;
+}

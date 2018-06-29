@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DS.dir/main.cpp.obj"
   "CMakeFiles/DS.dir/Array.cpp.obj"
+  "CMakeFiles/DS.dir/ListElement.cpp.obj"
+  "CMakeFiles/DS.dir/LinkedList.cpp.obj"
+  "CMakeFiles/DS.dir/Array2D.cpp.obj"
+  "CMakeFiles/DS.dir/Matrix.cpp.obj"
   "DS.pdb"
   "DS.exe"
   "DS.exe.manifest"

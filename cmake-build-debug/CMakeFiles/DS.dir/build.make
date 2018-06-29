@@ -104,21 +104,125 @@ CMakeFiles/DS.dir/Array.cpp.obj.provides: CMakeFiles/DS.dir/Array.cpp.obj.requir
 CMakeFiles/DS.dir/Array.cpp.obj.provides.build: CMakeFiles/DS.dir/Array.cpp.obj
 
 
+CMakeFiles/DS.dir/ListElement.cpp.obj: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/ListElement.cpp.obj: ../ListElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS.dir/ListElement.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DS.dir\ListElement.cpp.obj -c F:\ForCoding\DS\ListElement.cpp
+
+CMakeFiles/DS.dir/ListElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/ListElement.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\ForCoding\DS\ListElement.cpp > CMakeFiles\DS.dir\ListElement.cpp.i
+
+CMakeFiles/DS.dir/ListElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/ListElement.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ForCoding\DS\ListElement.cpp -o CMakeFiles\DS.dir\ListElement.cpp.s
+
+CMakeFiles/DS.dir/ListElement.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DS.dir/ListElement.cpp.obj.requires
+
+CMakeFiles/DS.dir/ListElement.cpp.obj.provides: CMakeFiles/DS.dir/ListElement.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/ListElement.cpp.obj.provides.build
+.PHONY : CMakeFiles/DS.dir/ListElement.cpp.obj.provides
+
+CMakeFiles/DS.dir/ListElement.cpp.obj.provides.build: CMakeFiles/DS.dir/ListElement.cpp.obj
+
+
+CMakeFiles/DS.dir/LinkedList.cpp.obj: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/LinkedList.cpp.obj: ../LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DS.dir/LinkedList.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DS.dir\LinkedList.cpp.obj -c F:\ForCoding\DS\LinkedList.cpp
+
+CMakeFiles/DS.dir/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/LinkedList.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\ForCoding\DS\LinkedList.cpp > CMakeFiles\DS.dir\LinkedList.cpp.i
+
+CMakeFiles/DS.dir/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/LinkedList.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ForCoding\DS\LinkedList.cpp -o CMakeFiles\DS.dir\LinkedList.cpp.s
+
+CMakeFiles/DS.dir/LinkedList.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DS.dir/LinkedList.cpp.obj.requires
+
+CMakeFiles/DS.dir/LinkedList.cpp.obj.provides: CMakeFiles/DS.dir/LinkedList.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/LinkedList.cpp.obj.provides.build
+.PHONY : CMakeFiles/DS.dir/LinkedList.cpp.obj.provides
+
+CMakeFiles/DS.dir/LinkedList.cpp.obj.provides.build: CMakeFiles/DS.dir/LinkedList.cpp.obj
+
+
+CMakeFiles/DS.dir/Array2D.cpp.obj: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/Array2D.cpp.obj: ../Array2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DS.dir/Array2D.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DS.dir\Array2D.cpp.obj -c F:\ForCoding\DS\Array2D.cpp
+
+CMakeFiles/DS.dir/Array2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/Array2D.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\ForCoding\DS\Array2D.cpp > CMakeFiles\DS.dir\Array2D.cpp.i
+
+CMakeFiles/DS.dir/Array2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/Array2D.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ForCoding\DS\Array2D.cpp -o CMakeFiles\DS.dir\Array2D.cpp.s
+
+CMakeFiles/DS.dir/Array2D.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DS.dir/Array2D.cpp.obj.requires
+
+CMakeFiles/DS.dir/Array2D.cpp.obj.provides: CMakeFiles/DS.dir/Array2D.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Array2D.cpp.obj.provides.build
+.PHONY : CMakeFiles/DS.dir/Array2D.cpp.obj.provides
+
+CMakeFiles/DS.dir/Array2D.cpp.obj.provides.build: CMakeFiles/DS.dir/Array2D.cpp.obj
+
+
+CMakeFiles/DS.dir/Matrix.cpp.obj: CMakeFiles/DS.dir/flags.make
+CMakeFiles/DS.dir/Matrix.cpp.obj: ../Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DS.dir/Matrix.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DS.dir\Matrix.cpp.obj -c F:\ForCoding\DS\Matrix.cpp
+
+CMakeFiles/DS.dir/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS.dir/Matrix.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\ForCoding\DS\Matrix.cpp > CMakeFiles\DS.dir\Matrix.cpp.i
+
+CMakeFiles/DS.dir/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS.dir/Matrix.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ForCoding\DS\Matrix.cpp -o CMakeFiles\DS.dir\Matrix.cpp.s
+
+CMakeFiles/DS.dir/Matrix.cpp.obj.requires:
+
+.PHONY : CMakeFiles/DS.dir/Matrix.cpp.obj.requires
+
+CMakeFiles/DS.dir/Matrix.cpp.obj.provides: CMakeFiles/DS.dir/Matrix.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Matrix.cpp.obj.provides.build
+.PHONY : CMakeFiles/DS.dir/Matrix.cpp.obj.provides
+
+CMakeFiles/DS.dir/Matrix.cpp.obj.provides.build: CMakeFiles/DS.dir/Matrix.cpp.obj
+
+
 # Object files for target DS
 DS_OBJECTS = \
 "CMakeFiles/DS.dir/main.cpp.obj" \
-"CMakeFiles/DS.dir/Array.cpp.obj"
+"CMakeFiles/DS.dir/Array.cpp.obj" \
+"CMakeFiles/DS.dir/ListElement.cpp.obj" \
+"CMakeFiles/DS.dir/LinkedList.cpp.obj" \
+"CMakeFiles/DS.dir/Array2D.cpp.obj" \
+"CMakeFiles/DS.dir/Matrix.cpp.obj"
 
 # External object files for target DS
 DS_EXTERNAL_OBJECTS =
 
 DS.exe: CMakeFiles/DS.dir/main.cpp.obj
 DS.exe: CMakeFiles/DS.dir/Array.cpp.obj
+DS.exe: CMakeFiles/DS.dir/ListElement.cpp.obj
+DS.exe: CMakeFiles/DS.dir/LinkedList.cpp.obj
+DS.exe: CMakeFiles/DS.dir/Array2D.cpp.obj
+DS.exe: CMakeFiles/DS.dir/Matrix.cpp.obj
 DS.exe: CMakeFiles/DS.dir/build.make
 DS.exe: CMakeFiles/DS.dir/linklibs.rsp
 DS.exe: CMakeFiles/DS.dir/objects1.rsp
 DS.exe: CMakeFiles/DS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\ForCoding\DS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DS.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DS.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +232,10 @@ CMakeFiles/DS.dir/build: DS.exe
 
 CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/main.cpp.obj.requires
 CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/Array.cpp.obj.requires
+CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/ListElement.cpp.obj.requires
+CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/LinkedList.cpp.obj.requires
+CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/Array2D.cpp.obj.requires
+CMakeFiles/DS.dir/requires: CMakeFiles/DS.dir/Matrix.cpp.obj.requires
 
 .PHONY : CMakeFiles/DS.dir/requires
 

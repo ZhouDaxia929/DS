@@ -149,6 +149,114 @@ Array.cpp.s:
 	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Array.cpp.s
 .PHONY : Array.cpp.s
 
+Array2D.obj: Array2D.cpp.obj
+
+.PHONY : Array2D.obj
+
+# target to build an object file
+Array2D.cpp.obj:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Array2D.cpp.obj
+.PHONY : Array2D.cpp.obj
+
+Array2D.i: Array2D.cpp.i
+
+.PHONY : Array2D.i
+
+# target to preprocess a source file
+Array2D.cpp.i:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Array2D.cpp.i
+.PHONY : Array2D.cpp.i
+
+Array2D.s: Array2D.cpp.s
+
+.PHONY : Array2D.s
+
+# target to generate assembly for a file
+Array2D.cpp.s:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Array2D.cpp.s
+.PHONY : Array2D.cpp.s
+
+LinkedList.obj: LinkedList.cpp.obj
+
+.PHONY : LinkedList.obj
+
+# target to build an object file
+LinkedList.cpp.obj:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/LinkedList.cpp.obj
+.PHONY : LinkedList.cpp.obj
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+ListElement.obj: ListElement.cpp.obj
+
+.PHONY : ListElement.obj
+
+# target to build an object file
+ListElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/ListElement.cpp.obj
+.PHONY : ListElement.cpp.obj
+
+ListElement.i: ListElement.cpp.i
+
+.PHONY : ListElement.i
+
+# target to preprocess a source file
+ListElement.cpp.i:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/ListElement.cpp.i
+.PHONY : ListElement.cpp.i
+
+ListElement.s: ListElement.cpp.s
+
+.PHONY : ListElement.s
+
+# target to generate assembly for a file
+ListElement.cpp.s:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/ListElement.cpp.s
+.PHONY : ListElement.cpp.s
+
+Matrix.obj: Matrix.cpp.obj
+
+.PHONY : Matrix.obj
+
+# target to build an object file
+Matrix.cpp.obj:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Matrix.cpp.obj
+.PHONY : Matrix.cpp.obj
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles\DS.dir\build.make CMakeFiles/DS.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +296,18 @@ help:
 	@echo ... Array.obj
 	@echo ... Array.i
 	@echo ... Array.s
+	@echo ... Array2D.obj
+	@echo ... Array2D.i
+	@echo ... Array2D.s
+	@echo ... LinkedList.obj
+	@echo ... LinkedList.i
+	@echo ... LinkedList.s
+	@echo ... ListElement.obj
+	@echo ... ListElement.i
+	@echo ... ListElement.s
+	@echo ... Matrix.obj
+	@echo ... Matrix.i
+	@echo ... Matrix.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
